@@ -17,6 +17,8 @@ class Dragon {
   }
 }
 
+
+
 /********************************** TESTS **********************************/
 // const puff = new Dragon("Puff", "green");
 // console.log(puff); // Dragon { name: 'Puff', color: 'green' }
@@ -26,9 +28,11 @@ class Dragon {
 // console.log(toothless); // Dragon { name: 'Toothless', color: 'black' }
 // console.log(toothless.breathesFire()); // Toothless breathes fire everywhere! BURN!!!!
 
-const puff = new Dragon("Puff", "green");
-const toothless = new Dragon("Toothless", "black");
-console.log(Dragon.getDragons(puff, toothless)); // [ 'Puff', 'Toothless' ]
+// const puff = new Dragon("Puff", "green");
+// const toothless = new Dragon("Toothless", "black");
+// console.log(Dragon.getDragons(puff, toothless)); // [ 'Puff', 'Toothless' ]
+
+
 
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
