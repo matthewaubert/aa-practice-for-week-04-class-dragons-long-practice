@@ -13,7 +13,6 @@ class FriendlyDragon extends Dragon {
     // console.log each of the instance's life goals separately
     this.lifeGoals.forEach(lifeGoal => console.log(`${this.name} likes to ${lifeGoal}`));
   }
-
   // instance method "helpsPeople()"
   helpsPeople() {
     return `${this.name} helps their friend ${this.friend}`;
@@ -55,6 +54,7 @@ Puff likes to frolick in the autumn mist
 Puff likes to help small children
 Puff helps their friend Jackie Paper
 */
+
 
 const toothless = new FriendlyDragon(
   "Toothless",
