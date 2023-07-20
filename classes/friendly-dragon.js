@@ -22,20 +22,20 @@ class FriendlyDragon extends Dragon {
 
 
 /********************************** TESTS **********************************/
-const puff = new FriendlyDragon(
-  "Puff",
-  "green",
-  [
-    "live by the sea",
-    "frolick in the autumn mist",
-    "help small children"
-  ],
-  "Jackie Paper"
-);
-console.log(puff);
-console.log(puff.breathesFire()); // Friendly dragons can still breathe fire!
-puff.hasLifeGoals();
-console.log(puff.helpsPeople());
+// const puff = new FriendlyDragon(
+//   "Puff",
+//   "green",
+//   [
+//     "live by the sea",
+//     "frolick in the autumn mist",
+//     "help small children"
+//   ],
+//   "Jackie Paper"
+// );
+// console.log(puff);
+// console.log(puff.breathesFire()); // Friendly dragons can still breathe fire!
+// puff.hasLifeGoals();
+// console.log(puff.helpsPeople());
 
 /* Expected output:
 FriendlyDragon {
@@ -56,19 +56,19 @@ Puff helps their friend Jackie Paper
 */
 
 
-const toothless = new FriendlyDragon(
-  "Toothless",
-  "black",
-  [
-    "save the town of Burke",
-    "fly with a kid on his back",
-    "hang out with Vikings"
-  ],
-  "Hiccup"
-);
-console.log(toothless); toothless.hasLifeGoals();
-console.log(toothless.helpsPeople());
-console.log(toothless.breathesFire());
+// const toothless = new FriendlyDragon(
+//   "Toothless",
+//   "black",
+//   [
+//     "save the town of Burke",
+//     "fly with a kid on his back",
+//     "hang out with Vikings"
+//   ],
+//   "Hiccup"
+// );
+// console.log(toothless); toothless.hasLifeGoals();
+// console.log(toothless.helpsPeople());
+// console.log(toothless.breathesFire());
 
 /* Expected output:
 FriendlyDragon {
